@@ -1,0 +1,180 @@
+body {
+    background-color: #030104;
+}
+
+/* DEBUT CODE HEADER */
+
+.header {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    margin: 0 auto;
+    width: 95%;
+    height: 150px;
+    background: linear-gradient( #fa4710, #f71c1c, #ff0000b6) ;
+    margin-top: 25px;
+    border-radius: 10px;
+
+}
+
+.header-form {
+
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.header-form input {
+
+    color: white;
+    background-color:#030104;
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+    margin-left: 10px;
+}
+
+.header-form button {
+
+    height: 30px;
+    color: white;
+    background-color:#030104;
+    border-radius: 10px;
+}
+
+/* FIN CODE HEADER */
+
+
+
+/* DEBUT CODE SECTION */
+
+
+section {
+
+    display: flex;
+    justify-content: space-evenly;   
+    margin: 30px; 
+}
+
+.echanges {
+    width: 75%;
+}
+
+.chat {
+
+    color:white;
+    background-color: rgb(26, 25, 25);
+    width: 95%;
+    height: 1000px;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+.user {
+
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color:white;
+    background: linear-gradient( #fa4710, #f71c1c, #ff0000) ;
+    width: 90%;
+    height: 800px;
+    border-radius: 10px;
+    padding-left:10px ;
+    overflow-y: scroll;
+    
+
+}
+
+.list-user {
+
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    height: 100%;
+    width: 75%;
+    background-color: #030104;
+    color: #ffffff;
+    padding-left:5px ;
+
+}
+
+.send_message {
+
+    display: flex;
+    align-items: flex-end;    
+}
+
+.submit {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(26, 25, 25);
+    width: 95%;
+    height: 80px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.submit button{
+
+    margin-left: 20px;
+    background-color:#f71c1c;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.submit input{
+
+    height: 50px;
+    border-radius: 10px;
+}
+
+.chat_bubble {
+
+    padding: 10px;
+    margin: 15px;
+    height: 100%;
+    color: #ffffff;
+    border-radius: 10px;
+    background: linear-gradient( #fa4710, #f71c1c, #ff0000) ;
+
+}
+
+.connected {
+
+    color: #ffffff;
+}
+
+.btnvert{
+
+    height: 15px;
+    border-radius: 50px;
+    background-color: green;
+}
+
+.btnrouge{
+
+    height: 15px;
+    border-radius: 50px;
+    background-color: rgb(255, 0, 0);
+}
+/* FIN CODE SECTION */
+
+
+
+/* DEBUT CODE FOOTER */
+
+footer {
+
+    height: 200px;
+    background-image: url(../images/flammes.jpeg);
+}
+
+/* FIN CODE FOOTER */
+
+
+
